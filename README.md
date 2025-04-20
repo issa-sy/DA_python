@@ -1,5 +1,5 @@
 # DA_python 
- Si on considérant que les bulles sont des sphères et les boucles des disques : les Rayon des amas sont donner par les formule dans l'image : Rayon_des_amas.jpeg
+ Si on considérant que les bulles sont des sphères et les boucles des disques : les Rayon des amas sont donner par les formule dans l'image : Rayon_des_amas.png
 
  Nous avons attribué au soluté en position interstitielle (n = 0) le même rayon que celui du site interstitiel (tel qu’il est donné par la formule des boucles pour n =1). Le terme Ω est le volume"atomique" d’un UO2 et b la norme du vecteur de Burgers des boucles.
 
