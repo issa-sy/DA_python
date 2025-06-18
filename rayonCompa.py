@@ -62,15 +62,15 @@ mask_xolotl = n_vals <= 1
 # Tracé comparatif
 # -------------------------------
 plt.figure(figsize=(10, 6))
-plt.plot(n_vals, D_skorek, 'o', color='green', label='Résultats de Skorek', markersize=4)
-plt.plot(n_vals[mask_xolotl], D_xolotl[mask_xolotl], 'o', color='red', label='Résultats de Xolotl', markersize=4)
+plt.plot(n_vals, D_skorek, 'o', color='green', label='Résultats de Skorek', markersize=5)
+plt.plot(n_vals[mask_xolotl], D_xolotl[mask_xolotl], 'o', color='red', label='Résultats de Xolotl', markersize=5)
 
 plt.axvline(0, linestyle='--', color='black')
 
-plt.xlabel("n")
-plt.ylabel("Diamètre 2R (nm)")
-plt.title("Comparaison des diamètres des amas : Skorek vs Xolotl")
+plt.xlabel("n",fontsize=15)
+plt.ylabel("Diamètre 2R (nm)", fontsize=15)
+#plt.title("Comparaison des diamètres des amas : Skorek vs Xolotl", fontsize=15)
 plt.legend()
-plt.grid(True)
+plt.grid(True, which='both', linestyle='--', linewidth=0.5)
 plt.tight_layout()
 plt.show()
